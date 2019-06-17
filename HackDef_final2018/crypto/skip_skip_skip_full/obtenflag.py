@@ -1,8 +1,5 @@
 from Crypto.Util.number import *
 import gmpy
-from Crypto.Util import number
-from Crypto.PublicKey.RSA import construct
-from Crypto.PublicKey import RSA
 import sympy
 
 
@@ -37,18 +34,18 @@ for n in range(2, 1000000):
 		if(isPrime(q)):
 			break
 
-# ya tenemos p, q, N, e, mensaje_encriptado
+# ya tenemos p, q, N, e, mensaje_cifrado
 
 
-#"print "mensaje_encriptado: " + str(mensaje_encriptado)
+#"print "mensaje_cifrado: " + str(mensaje_cifrado)
 
 # calcular d, llave privada
 d = long(gmpy.invert(e,(p-1)*(q-1)))
 
 
-#mensaje_encriptado = pow(bytes_to_long("flag{esta es la chida}"), e, N)
+#mensaje_cifrado  = pow(bytes_to_long("flag{esta es la chida}"), e, N)
 
-mensaje_desencriptado = pow(c, d, N)
-msj = long_to_bytes(mensaje_desencriptado)
+mensaje_descifrado = pow(c, d, N)
+msj = long_to_bytes(mensaje_descifrado)
 print msj	
 
