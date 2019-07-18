@@ -1,0 +1,3 @@
+Es un cifrado bacon
+tool online
+https://www.dcode.fr/bacon-cipher

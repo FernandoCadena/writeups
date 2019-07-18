@@ -1,0 +1,7 @@
+La llave publica es debil, el modulo publico es factorizable
+con la la tool RsaCtfToool se puede resolver facilmente
+Gerear la clave privada con Rsatool
+./RsaCtfTool.py --publickey "key.pub" --private
+********************************************************************
+Decifrar el archivo con la key privada
+openssl rsautl -decrypt -inkey privada.key -in flag.enc -out flag.txt
