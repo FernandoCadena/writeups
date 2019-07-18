@@ -1,0 +1,4 @@
+Al parecer es el tipico mensaje oculto en el espectro del audio
+https://academo.org/demos/spectrum-analyzer/
+flag:
+

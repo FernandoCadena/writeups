@@ -1,0 +1,15 @@
+el mensaje de m3ss@g#_f0r_pAUl estaba cifrado por sustitucion, 
+la contraseña de BAND.zip por zcrackzip es "pass" 
+la imagen BAND.JPG tiene un archivo con steghide sale pass= "THEBEATLES" (casi obvio obserbando BAND.zip)
+genera un testabeatle.out 
+el cual es un ejecutale que pide que hagas operaciones, pense en hacerle RE pero intente usar "cat" y strigns"
+con cat muestra mucho texto entre ello hay una cadena en base 64 cadena= VGhlIHRvdXIgd2FzIGNhbmNlbGVkIGZvciB0aGUgZm9sbG93aW5nIG1vbnRoLi4uIQ0KDQpJJ2xsIGdvIG91dCBmb3IgZGlubmVyIHdpdGggbXkgZ2lybGZyaWVuZCBuYW1lZCBZb2NvISA7KQ0KDQpIVEJ7UzByUnlfTXlfRlIxM25EfQ0K
+
+al decodificarla:
+The tour was canceled for the following month...!
+
+I'll go out for dinner with my girlfriend named Yoco! ;)
+
+HTB{S0rRy_My_FR13nD}
+
+

@@ -1,0 +1,4 @@
+Stegcracker con rockyou.txt
+la salida es un txt con un base 64
+base64 -d 
+flag:

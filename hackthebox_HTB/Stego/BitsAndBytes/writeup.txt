@@ -1,0 +1,28 @@
+como el comando diff no arroja algo util, intente con 
+imagemagick 
+http://www.imagemagick.org/Usage/compare/
+sudo apt-get install imagemagick
+con la tool compare se encuentra las diferencias 
+con le sig comando muestra en una ventana remarcada la diferencia
+compare original.png intercepted.png x:
+este guarda el resutlado en otro png
+
+compare original.png intercepted.png result.png
+
+con GIMP hice zoom a la parte remarcada de rojo,
+cada tantos pixeles estan marcados, es codigo binario (lo hize en excel porque noob xD)
+copie los cuadros rojo = 1 otro caso = 0
+resultado:
+
+0 1 0 1 0 0 1 1 0 1 0 0 0 1 1 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 1 1 0 1 1 0 0 1 0 1 0 1 1 1 1 0 1 0 0 1 0 0 0 1 1 0 0 1 1 0 1 1 0 1 0 1 0 1 1 0 0 0 0 0 1 1 0 0 1 0 0 1 0 0 0 1 1 0 0 1 1 0 0 1 1 0 0 1 1 0 0 1 0 0 0 1 1 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 0 1 0 0 1 0 0 0 1 1 0 0 0 1 1 1 0 0 1 0 1 1 0 1 0 1 0 0 1 1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 1 1 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 1 1 0 1 0 1 0 0 1 0 0 1 1 0 1 0 1 0 0 1 0 0 0 0 1 0 1 0 1 1 0 0 1 1 1 0 0 1 1 0 1 0 1 1 0 1 0 0 1 0 0 0 1 1 0 0 0 1 1 1 0 0 1 0 1 1 0 1 0 1 0 0 1 1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 1 1 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 1 1 1 0 0 1 0 0 1 1 0 0 1 1 0 1 0 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 1 1 0 1 0 1 1 0 1 1 0 0 1 1 0 0 1 0 1 0 0 0 1 0 0 1 1 1 1 0 1 0 0 1 1 1 1 0 1
+
+en algun traductor en linea  traduje la cadena binaria a:
+SFRCezFmX2FfdzAwRF9jaHVja19jMHVsZF9jaHVja193MDBkfQ==
+decodificando a base64
+HTB{1f_a_w00D_chuck_c0uld_chuck_w00d}
+como no aceptaba la flag
+me di cuenta que tenia mayusculas
+flag correcta:
+HTB{1f_a_w00d_chuck_c0uld_chuck_w00d}
+
+

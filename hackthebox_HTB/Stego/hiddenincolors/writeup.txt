@@ -1,0 +1,22 @@
+Abrir el archivo png en algun editor, Photshop o en mi caso GIMP
+con la herramienta de "gotero" abrir la paleta de colores y dar clic
+en cada color de la imagen, en la paleta hay un apartado que da el numero del color en 
+HTML segun la descripcion dice que los 2 ultimos digitos son los mas importantes
+claramente son hexadecimales 
+color 1: 9f2624
+color 2: 247c33 
+color 3: d42b63
+color 4: 5f5f30
+color 5: 0cef21
+colot 6: 110731
+
+sacando los dos ultimos digitos
+
+24 33 63 30 21 31
+
+para convertir la cadena en texto plano:
+echo  -e "\x24\x33\x63\x30\x21\x31"
+
+el resultado es: $3c0!1
+
+flag: HTB{$3c0!1}
